@@ -6,9 +6,9 @@ source 'https://rubygems.org'
 gemspec
 
 group :assets do
-  gem 'sass-rails',   '~> 4.0.0.beta1'
-  gem 'coffee-rails', '~> 4.0.0.beta1'
-  gem 'uglifier', '~> 1.3.0'
+  gem 'sass-rails',   '~> 4.0'
+  gem 'coffee-rails', '~> 4.0'
+  gem 'uglifier', '~> 2.4'
 end
 
 platforms :jruby do
@@ -40,7 +40,7 @@ gem 'jquery-rails'
 gem "ckeditor-rails", :git => "git://github.com/fesplugas/rails-ckeditor.git"
 
 # Alternative authentication
-gem 'devise', :git => 'git://github.com/plataformatec/devise.git', :branch => 'rails4'
+gem 'devise', :git => 'git://github.com/plataformatec/devise.git'
 
 # Asset Management
 gem 'dragonfly', '~> 0.9.14'
